@@ -3,13 +3,13 @@ function mostrarNome() {
 }
 
 
-const products = ["Fogão", "Televisão", "Sofá"]
+const objects = ["Fogão", "Televisão", "Sofá"]
 
-for (product of products) {
+for (product of objects) {
     console.log(product);
 }
 
-const newProducts = products.push("Cama")
+const newProducts = objects.push("Cama")
 
 console.log("----------------");
-console.log(products);
+console.log(objects);
